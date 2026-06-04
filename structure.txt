@@ -1,0 +1,82 @@
+├── .env
+├── .gitignore
+├── app
+│   ├── Home.py
+│   └── pages
+│       ├── 1_Search_and_Recommend.py
+│       ├── 2_Product_Analysis.py
+│       └── 3_Compare_Products.py
+├── artifacts
+├── bugs.md
+├── data
+├── debug_card.html
+├── full_tree.txt
+├── logs
+│   └── shopping_ai.log
+├── pyproject.toml
+├── README.md
+├── requirements.txt
+├── src
+│   ├── __init__.py
+│   ├── shopping_ai
+│   │   ├── __init__.py
+│   │   ├── config
+│   │   │   ├── __init__.py
+│   │   │   ├── paths.py
+│   │   │   ├── selectors.py
+│   │   │   ├── settings.py
+│   │   │   └── urls.py
+│   │   ├── discovery
+│   │   │   ├── __init__.py
+│   │   │   ├── pagination.py
+│   │   │   ├── product_discovery.py
+│   │   │   └── product_parser.py
+│   │   ├── filtering
+│   │   │   ├── __init__.py
+│   │   │   ├── product_filter.py
+│   │   │   └── relevance_filter.py
+│   │   ├── intelligence
+│   │   │   ├── __init__.py
+│   │   │   ├── product_feature_extractor.py
+│   │   │   ├── query_parser.py
+│   │   │   ├── recommendation_engine.py
+│   │   │   └── user_intent_engine.py
+│   │   ├── models
+│   │   │   └── product.py
+│   │   ├── ranking
+│   │   │   ├── __init__.py
+│   │   │   ├── ranking_engine.py
+│   │   │   ├── trust_ranker.py
+│   │   │   └── value_ranker.py
+│   │   ├── recommendation
+│   │   ├── scraping
+│   │   │   ├── __init__.py
+│   │   │   ├── browser_manager.py
+│   │   │   └── page_loader.py
+│   │   ├── storage
+│   │   │   └── __init__.py
+│   │   └── utils
+│   │       ├── exceptions.py
+│   │       ├── logger.py
+│   │       ├── query_utils.py
+│   │       └── text_utils.py
+│   └── shopping_ai.egg-info
+│       ├── dependency_links.txt
+│       ├── PKG-INFO
+│       ├── requires.txt
+│       ├── SOURCES.txt
+│       └── top_level.txt
+├── structure.txt
+├── tests
+│   ├── __init__.py
+│   ├── test_browser.py
+│   ├── test_discovery.py
+│   ├── test_exceptions.py
+│   ├── test_feature_extractor.py
+│   ├── test_logger.py
+│   ├── test_pagination.py
+│   ├── test_paths.py
+│   ├── test_product_parser.py
+│   ├── test_query_parser.py
+│   └── test_ranking.py
+└── tree_project.py

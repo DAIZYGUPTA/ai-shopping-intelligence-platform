@@ -1,0 +1,11 @@
+streamlit
+selenium
+webdriver-manager
+pandas
+numpy
+plotly
+beautifulsoup4
+lxml
+python-dotenv
+requests
+scikit-learn
